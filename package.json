@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@nano/wallet": "^1.0.2",
+    "fs": "^0.0.1-security"
+  },
+  "name": "nano",
+  "version": "1.0.0",
+  "main": "nano.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
