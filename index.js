@@ -40,7 +40,7 @@ app.post('/verify', async function (req,res){
                         let nearinfo = await inf.json()
                         let near_balance = await nearinfo.balance_nano;
                         let near_pending_balance = await nearinfo.pending_nano;
-                        if (near_balance<=0.00001 || near_pending_balance<=0.00001){
+                        if (near_balance<=0.00001 && near_pending_balance<=0.00001){
                                 async function info(){
                                         let inf = await fetch('https://rpc.nano.to',{method: 'POST',headers:{
                                             "Content-Type":"application/json"
